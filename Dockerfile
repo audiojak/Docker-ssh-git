@@ -20,4 +20,4 @@ ENV SSH_PUBLIC_KEY ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCj8zRPjlxFMRHpP9orFobBE
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT [ "/run.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
